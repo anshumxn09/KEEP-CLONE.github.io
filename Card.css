@@ -1,0 +1,32 @@
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: max-content;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border: 2px dashed sandybrown;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.button > button{
+    padding: 5px;
+    font-weight: 1000;
+    background-color: sandybrown;
+    color: white;
+}
+p{
+    margin: 5px 5px;
+}
+
+.button > button:hover{
+    background-color: white;
+    color: sandybrown;
+}
